@@ -17,7 +17,7 @@ We have used the **[Photopedia XL](https://civitai.com/models/189109/photopedia-
 
 ## Image Comparison
 
-| Actual LaMon Image | Prompt: "A <lamon-toy> beside a mountain" (without textual inversion) | With Textual Inversion |
+| Actual LaMon Image | Without textual inversion<br>Prompt: "A &lt;lamon-toy&gt; beside a mountain" | With Textual Inversion<br>Prompt: "A &lt;lamon-toy&gt; beside a mountain" |
 | --- | --- | --- |
 | ![Actual LaMon](assets/lamon.png) | ![Without Textual Inversion](assets/photopediaXL-lamon.png) | ![With Textual Inversion](assets/fake-lamon.png) |
 
@@ -26,7 +26,7 @@ To begin, download, unzip, and place the necessary model weights:
 
 ```bash
 pip install gdown==5.2.0
-gdown 'https://drive.google.com/uc?id=1TjkRSjDaAkixo0tWOFQEXrnau-xwDNeY'
+gdown 'https://drive.google.com/uc?id=111Po9DGIAvvgSaAV8yVswtuw9X3sa42k'
 
 unzip model_weights.zip
 rm -rf model_weights.zip
